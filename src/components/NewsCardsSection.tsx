@@ -13,7 +13,7 @@ const NewsCardsSection = ({
   isError: boolean;
 }) => {
   return (
-    <section className="w-full px-4 lg:px-12 pb-4">
+    <section className="w-full px-4 lg:px-12 pb-4 pt-20">
       <h1 className="uppercase font-bold lg:font-medium text-2xl lg:text-5xl text-white lg:px-4 lg:py-10 lg:mb-0">
         News
       </h1>
@@ -23,7 +23,7 @@ const NewsCardsSection = ({
           Something went wrong. Please try again later.
         </div>
       )}
-      <div className="w-full py-4 lg:grid lg:grid-cols-4 gap-4">
+      <div className="w-full py-4 lg:grid lg:grid-cols-[repeat(auto-fit,_minmax(300px,_1fr))] gap-4">
         {isLoading && (!data || data.length === 0) && (
           <>
             {Array.from({ length: 8 }).map((_, idx) => (
