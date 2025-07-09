@@ -24,7 +24,7 @@ const NewsCardsSection = ({
         </div>
       )}
       <div className="w-full py-4 lg:grid lg:grid-cols-4 gap-4">
-        {isLoading && !data && (
+        {isLoading && (!data || data.length === 0) && (
           <>
             {Array.from({ length: 8 }).map((_, idx) => (
               <NewsCardSkeleton key={idx} />
