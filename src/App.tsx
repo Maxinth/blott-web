@@ -2,7 +2,6 @@ import Navbar from "./components/Navbar";
 import NewsCardsSection from "./components/NewsCardsSection";
 import { useQuery } from "@tanstack/react-query";
 import axios from "axios";
-// import { mockData } from "./components/data";
 
 const token = import.meta.env.VITE_FINNHUB_API_KEY;
 
