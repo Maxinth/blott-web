@@ -1,5 +1,6 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import { render, screen } from "@testing-library/react";
+import { render } from "@testing-library/react";
+import { screen } from "@testing-library/dom";
 import NewsCardsSection from "../components/NewsCardsSection";
 import type { FinnhubNewsItem } from "../components/data";
 

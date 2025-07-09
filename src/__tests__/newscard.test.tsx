@@ -1,4 +1,5 @@
-import { render, screen } from "@testing-library/react";
+import { render } from "@testing-library/react";
+import { screen } from "@testing-library/dom";
 import NewsCard from "../components/NewsCard";
 import { formateDate } from "../utils/formatDate";
 import type { FinnhubNewsItem } from "../components/data";

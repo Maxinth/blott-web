@@ -1,4 +1,6 @@
-import { render, screen } from "@testing-library/react";
+import { render } from "@testing-library/react";
+import { screen } from "@testing-library/dom";
+
 import Navbar from "../components/Navbar";
 
 //* Mock for imported image
