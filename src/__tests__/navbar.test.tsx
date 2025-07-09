@@ -4,7 +4,7 @@ import { screen } from "@testing-library/dom";
 import Navbar from "../components/Navbar";
 
 //* Mock for imported image
-jest.mock("../assets/BLOTT.png", () => "blott-logo.png");
+jest.mock("../assets/BLOTT.svg", () => "blott-logo.svg");
 
 describe("Navbar", () => {
   it("renders without crashing", () => {
