@@ -12,12 +12,12 @@ const NewsCard = ({
       href={url}
       target="_blank"
       rel="noreferrer"
-      className="w-fit flex lg:flex-col items-start gap-4  group hover:bg-gray-800/45 p-4 cursor-pointer ease-in-out transition-all duration-300 "
+      className="w-fit flex lg:flex-col items-start gap-4 group hover:bg-gray-800/45 p-4 cursor-pointer ease-in-out transition-all duration-300"
     >
       <img
         src={image}
         alt="img"
-        className="mb-2 lg:object-contain lg:w-full w-1/4 !h-full object-cover lg:!h-40"
+        className="mb-2 lg:object-contain lg:w-full w-1/4 aspect-[6/7] object-cover lg:h-40"
       />
       <div className="lg:w-full w-3/4">
         <div className="mb-2 text-white opacity-70 uppercase text-[12px] flex items-center w-full justify-between">

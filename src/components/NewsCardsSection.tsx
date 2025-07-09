@@ -14,12 +14,12 @@ const NewsCardsSection = ({
 }) => {
   return (
     <section className="w-full px-4 lg:px-12 pb-4 pt-20">
-      <h1 className="uppercase font-bold lg:font-medium text-2xl lg:text-5xl text-white lg:px-4 lg:py-10 lg:mb-0">
+      <h1 className="uppercase font-bold lg:font-medium text-2xl pt-4 lg:text-5xl text-white lg:px-4 lg:py-10 lg:mb-0">
         News
       </h1>
 
       {isError && (
-        <div className="text-white font-medium text-base h-[70vh] mt-6 lg:text-xl px-1 lg:px-4 ">
+        <div className="text-white font-medium text-base h-screen mt-6 lg:text-xl px-1 lg:px-4 ">
           Something went wrong. Please try again later.
         </div>
       )}
