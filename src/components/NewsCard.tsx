@@ -8,7 +8,12 @@ const NewsCard = ({
   datetime,
 }: FinnhubNewsItem) => {
   return (
-    <div className="w-fit flex lg:flex-col items-start gap-4  group hover:bg-gray-800/45 p-4 cursor-pointer ease-in-out transition-all duration-300 ">
+    <a
+      href={url}
+      target="_blank"
+      rel="noreferrer"
+      className="w-fit flex lg:flex-col items-start gap-4  group hover:bg-gray-800/45 p-4 cursor-pointer ease-in-out transition-all duration-300 "
+    >
       <img
         src={image}
         alt="img"
@@ -19,16 +24,11 @@ const NewsCard = ({
           <span>{source}</span>
           <span>{formateDate(datetime)}</span>
         </div>
-        <a
-          href={url}
-          target="_blank"
-          rel="noreferrer"
-          className="font-medium text-white text-lg group-hover:underline cursor-pointer"
-        >
+        <span className="font-medium text-white text-lg group-hover:underline cursor-pointer">
           {headline}
-        </a>
+        </span>
       </div>
-    </div>
+    </a>
   );
 };
 
