@@ -37,7 +37,7 @@ Displays live or test data in a card-based layout with loading skeletons and cle
 Clone and install dependencies:
 
 ```bash
-git clone https://github.com/your-username/blott-news.git
+git clone https://github.com/Maxinth/blott-web.git
 cd blott-news
 npm install                -----    then run
 

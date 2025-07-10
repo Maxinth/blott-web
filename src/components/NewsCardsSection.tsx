@@ -14,7 +14,7 @@ const NewsCardsSection = ({
 }) => {
   return (
     <section className="w-full px-4 lg:px-12 pb-4 pt-20">
-      <h1 className="uppercase font-bold lg:font-medium text-2xl pt-4 lg:text-5xl text-white lg:px-4 lg:py-10 lg:mb-0">
+      <h1 className="uppercase font-bold lg:font-medium text-2xl pt-4 lg:text-5xl text-white lg:px-4 lg:py-10 lg:mb-0 px-3">
         News
       </h1>
 
